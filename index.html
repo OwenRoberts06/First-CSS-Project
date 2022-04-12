@@ -7,7 +7,7 @@
     <title>Owen-Roberts-Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css-pages-style.css" />
     <style>
-        
+        /*styling for headings and paragraphs that wont be on other pages so its internal*/
       h2 {
         text-align: center;
         color: #363636;
@@ -20,36 +20,48 @@
       p {
         text-align: center;
       }
+      /*span id for band names to have background on the,*/
+      #bandSpan { 
+        background-color: rgb(161, 111, 111);}
+        /*class for the heading types to change their font style*/
+        .headingFont {font-style: oblique;}
+
     </style>
   </head>
   <body>
+    <!--h1 h2 and h3 have this class for the font-->
     <header>
-      <h1>Owen-Roberts-Portfolio</h1>
+      <h1 class="headingFont">Owen-Roberts-Portfolio</h1>
     </header>
+    <!--nav with the 2 anchor tags to my other work-->
     <nav>
       <ul>
-        <a
-          href="https://github.com/OwenRoberts06/First-Web-Assignment"
+        <a href="https://github.com/OwenRoberts06/First-Web-Assignment"
           target="_blank"
           ><li>Owen's HTML Project</li></a
         >
         <a href="https://github.com/OwenRoberts06/FirstWebProject-new"
+          target="_blank"
           ><li>Owen's HTML Assignment</li></a
         >
       </ul>
     </nav>
 
     <section>
-      <h2>Hobbies</h2>
-      <h3>Guitar/Music</h3>
+      <h2 class="headingFont">Hobbies</h2>
+      <h3 class="headingFont">Guitar/Music</h3>
+      <!--paragraphs with supertext to better show half year, breaks to keep text on page and spans to highlight names of bands-->
       <p>
         One of my main hobby's is guitar, I've been playing guitar for eight</br>
         years now. For most of those years I was playing classical guitar though</br>
         I made the switch to electric guitar about 1<sup>1/2</sup> years. I enjoy playing metal</br>
           music and also like to listen to music all the time. I mainly listen to</br>
-         metal and enjoy Slipknot and Avenged sevenfold the most out of the bands I like.
+         metal and enjoy <span id="bandSpan">Slipknot</span> and <span id="bandSpan">Avenged sevenfold</span> the most out of the bands I like.
       </p>
-      <h3>Video Games</h3>
+      <h3 class="headingFont">Video Games</h3>
+      <p>One of my other main hobbies is playing video games, the games I mainly play are</br> 
+        League of Legends, Sea of thieves, Minecraft, Valorant and Tom Clancy's Rainbow Six</br>
+         Siege. I enjoy working with other people in these games though I also enjoy singleplayer games.</p>
     </section>
   </body>
 </html>

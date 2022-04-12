@@ -2,7 +2,7 @@ h1 {
   text-align: center;
   color: #363636;
 }
-/* I used some code from W3 schools to make this sidebar but did change the  */
+/* I used some code from W3 schools to make this sidebar but did change the width, left padding, background color  */
 nav {
   height: 100%;
   width: 180px;
@@ -15,12 +15,15 @@ nav {
   padding-top: 15px;
   padding-left: 15px;
 }
+/*added a bit of space between links on the bottom*/
 li {
   margin-bottom: 9px;
 }
+/*different color for hyperlink*/
 a {
   color: #e3ffff;
 }
+/*added a border to try it out and changed background*/
 body {
   background-color: #e5e5e0;
   border-color: rgb(15, 15, 15);
